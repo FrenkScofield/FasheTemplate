@@ -1,0 +1,879 @@
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+/*header-1*/
+.hed1{
+    height: 45px;
+    background-color: #f5f5f5;
+    padding-left: 18px;
+   
+}
+.hed1 .icons ul li {
+    padding-left:20px;
+   display: inline-block;
+}
+.hed1 .icons ul li a{
+    color: #888888
+}
+.p2{
+    font-size: 13px;
+    color:#888888;
+    margin-top: 4px;
+    text-align: center;
+}
+.p3{
+    position: absolute;
+    font-size: 13px;
+    color:#888888;
+    margin-left:-160px;  
+}
+.usd{ 
+    position: absolute;
+    text-decoration: none;
+    color: #888888;
+    font-size: 13px;
+    margin-left: 26%;
+    padding-top: 5px;
+}
+/*header-2*/
+header{
+    background-color: white;
+    position:sticky;
+    top: 0;
+    height: 80px;
+    z-index: 10;
+}
+.logo{
+   padding-top: 15px;
+ font-size: 22PX;
+ 
+}
+.nav li{
+display:  inline-block;
+padding-right: 30px;
+
+}
+.nav ul{
+    text-align: center;
+    margin-top: 25px;  
+}
+.nav li a{
+    text-decoration: none;
+    color: #313131c4;;
+}
+.nav li a:hover{
+    color: #e65540;
+    transition: all 0.3s;
+} 
+.icon img{
+    margin-top: 17px;
+    padding-left: 80px; 
+    border-right: 1px solid #8d878767;
+    padding-right: 25px;
+}
+.icon1 img{
+    margin-top: 17px;
+    margin-left: 50px;
+   
+}
+.icon1 img hr{ 
+    border-left: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-right: 2px solid rgb(0, 0, 0)
+}
+/*section-1*/
+.one{
+    height: 600px;
+    background-image:url(image/bgr.jpg);
+    background-size: cover;
+    background-position-y:0px;
+}
+.p{
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    padding-left: 560px;
+    padding-top: 100px;
+    margin-top: 0px;
+
+}
+.text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    padding-left: 460px;
+    padding-bottom:0px;
+    margin-bottom: 0px;   
+}
+.h1{
+    padding-top: 0px;
+    padding-bottom:0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.button{
+    color: white;
+    padding-left: 600px;
+    font-size: 90px; 
+    }
+.clik{
+    width: 170px;
+    height: 50px;
+    border-radius: 30px;
+}
+.clik-l{
+    position: absolute;
+    left: 20px;
+    top: 350px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    color:white;
+    background-color: rgba(58, 58, 58, 0.377)
+}
+.clik-r{
+    position: absolute;
+    right: 20px;
+    top: 350px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    color:white;
+    background-color: rgba(58, 58, 58, 0.377)
+}
+/*section-2*/
+.two{
+    height: 900px;
+    background-color: white;
+    width: 95%;
+    margin: 0 auto;
+}
+.img{
+    width: 100%;
+    display: block;
+    margin: 6% 0% ;
+    transition: all 0.8s;
+}
+.bg{  
+    width: 100%;   
+}
+.two .col-4{
+    overflow: hidden;
+}
+.two .col-4{
+    position: relative;
+}
+/*button-1*/
+.two .but{
+    top: 48%;
+    left: 97px;
+    position: absolute;
+    background-color: rgba(255,255,255,0.95);
+}
+.but{
+    padding-left: 65px;
+    padding-top: 4%;
+    transition: all 0.7s;  
+}
+.two .but:hover{
+    background-color: rgba(235, 50, 50, 0.849);
+}
+.buttext{
+    color: rgb(0, 0, 0);
+    padding-right: 60px;
+    padding-bottom: 14px;
+    padding-top: 4px;
+    font-size: 16px;
+}
+.two .but:hover p{
+    color: white;}
+/*button-2*/
+.two .but2{
+    top: 89%;
+    left: 26%;
+    position: absolute;
+    background-color: rgba(255,255,255,0.95);;
+}
+.but2{
+    padding-right: 11%;
+    padding-top: 4%;
+    transition: all 0.7s;  
+}
+.two .but2:hover{
+    background-color: rgba(235, 50, 50, 0.849);
+}
+.buttext2{
+    color: rgb(0, 0, 0);
+    padding-left: 50px;
+    padding-bottom: 14px;
+    padding-top: 4px;
+    font-size: 16px;
+}
+.two .but2:hover p{
+    color: white;}
+/*button-3*/
+.two .but3{
+    top: 32%;
+    left: 23%;
+    position: absolute;
+    background-color: rgba(255,255,255,0.95);
+}
+.but3{
+    padding-left: 65px;
+    padding-top: 4%;
+    transition: all 0.7s;   
+}
+.two .but3:hover{
+    background-color: rgba(235, 50, 50, 0.849);
+}
+.buttext3{
+    color: rgb(0, 0, 0);
+    padding-right: 60px;
+    padding-bottom: 14px;
+    padding-top: 4px;
+    font-size: 16px;
+}
+.two .but3:hover p{
+    color: white;}
+/*button-4*/
+.two .but4{
+    top: 89%;
+    left: 22%;
+    position: absolute;
+    background-color: rgba(255,255,255,0.95);;
+}
+.but4{
+    padding-right: 11%;
+    padding-top: 4%;
+    transition: all 0.7s;  
+}
+.two .but4:hover{
+    background-color: rgba(235, 50, 50, 0.849);
+}
+.buttext4{
+    color: rgb(0, 0, 0);
+    padding-left: 50px;
+    padding-bottom: 14px;
+    padding-top: 4px;
+    font-size: 16px;
+}
+.two .but4:hover p{
+    color: white;}
+/*button-5*/
+.two .but5{
+    top: 48%;
+    left: 26%;
+    position: absolute;
+    background-color: rgba(255,255,255,0.95);
+}
+.but5{
+    padding-left: 65px;
+    padding-top: 3%;
+    transition: all 0.7s;  
+}
+.two .but5:hover{
+    background-color: rgba(235, 50, 50, 0.849);
+}
+.buttext5{
+    color: rgb(0, 0, 0);
+    padding-right: 60px;
+    padding-bottom: 14px;
+    padding-top: 4px;
+    font-size: 16px;
+}
+.two .but5:hover p{
+    color: white;}
+/*button-6*/
+.two .but6{
+    top: 90%;
+    left: 26%;
+    position: absolute;
+    background-color: rgba(255,255,255,0.95);;
+}
+.but6{
+    padding-right: 11%;
+    padding-top: 3%;
+    transition: all 0.7s;  
+}
+.two .but6:hover{
+    background-color: rgba(235, 50, 50, 0.849);
+}
+.two .but6:hover p{
+    color: white;
+}
+.buttext6{
+    color: rgb(0, 0, 0);
+    padding-left: 50px;
+    padding-bottom: 14px;
+    padding-top: 4px;
+    font-size: 16px;
+}
+.bg:hover img{
+    transform:scale(1.1);
+}
+.pres{
+    margin:0% 6%
+}
+/*section-3*/
+.three{
+    height:800px;
+    background-color: white
+}
+.pres2{
+    margin:0% 9%;
+}
+.three .col-3{
+    position: relative;
+    line-height: 1.8;
+    color: #555555;
+    overflow: hidden;  
+}
+.p4{
+    font-family: 'Francois One', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 32px;
+   text-align: center;
+   margin-top:100px;
+   padding-bottom: 35px;  
+}
+.p5 a{
+    text-decoration: none;
+    color: #555555;
+    transition: all 0.6s;
+}
+.p5 a:hover{ 
+    color:red;
+}
+.bor{
+     font-family:Montserrat-Regular, sans-serif;
+    color: white;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+    margin-left: 13px;
+    position: absolute;
+    border: 2px solid  #66a8a6;
+    background-color: #66a8a6;
+    border-radius: 14px;
+}
+.overlay{
+    transition: all 1s;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    top:19px;
+    width: 100%;
+    height: calc(100% - 90px);
+    background-color: rgba(10, 10, 10, 0.466);
+}
+.but7{
+    font-family:Montserrat-Regular, sans-serif;
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 113%;
+    margin-left: 75px;
+    position: absolute;
+    border: 1px solid   #111111;
+    background-color:  #111111;
+    border-radius: 30px;
+    bottom:-50px;
+    transition: all 0.5s;
+}
+.three .col-3:hover .but7{
+    bottom: 18px;  
+}
+.three .col-3:hover .overlay{
+    opacity: 1;
+}
+.heart{
+    color: rgb(250, 250, 250);
+    font-size: 20px;
+    position: absolute;
+    margin-left: 85%;
+    margin-top: 20px;
+    right:-20px;
+    transition:  0.3s;
+    transform-origin: center;
+    opacity: 0;
+    transform: scale(0);
+}
+.overlay:hover .heart{
+    transform: scale(1);
+    opacity: 1;
+    font-size: 20px;
+}
+.three .col-3:hover .heart{
+    left: 16px;  
+}
+.sale{
+    font-family:Montserrat-Regular, sans-serif;
+   color: white;
+   font-size: 12px;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-top: 30px;
+   margin-left: 13px;
+   position: absolute;
+   border: 2px solid  #e65540;;
+   background-color: #e65540;;
+   border-radius: 14px;
+}
+.price{
+    color:#e65540;
+}
+.price .s{
+    color: #555555;
+}
+/*section-4*/
+.four{
+    width: 100%;
+    height: 600px;
+    background-color: #f2f2f2;
+}
+.pres3{
+    margin:0% 6%;
+    position: relative;
+}
+.img1{
+    width: 100%;
+    display: block;
+    margin: 14% 1% ;
+    transition: all 0.8s;
+}
+.bg{
+    width: 100%;
+}
+.four .col-6{
+    overflow: hidden;
+}
+.four .col-6{
+    position: relative;
+}
+.p6{ 
+    font-family: 'Poppins', sans-serif;
+     position: absolute;
+    font-size: 35px;
+    color:rgb(255, 255, 255);
+    z-index: 1;
+    margin-left: 18%;
+    top: 255px;
+}
+.p7{ 
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+   font-size: 59px;
+   color:rgb(255, 255, 255);
+   z-index: 1;
+   margin-left: 13%;
+   top: 300px;
+}
+.p8{ 
+    text-decoration: none;
+    position: absolute;
+   font-size: 17px;
+   color:rgb(255, 255, 255);
+   z-index: 1;
+   margin-left: 19%;
+   top: 370px;
+}
+.p8:hover{
+  text-decoration: underline;
+}
+.p9 a{
+    position: absolute;
+    text-decoration: none;
+    color: #555555;
+    top: 350px;
+    margin-left: 34%;
+    transition: all 0.6s;
+}
+.p9 a:hover{ 
+    color:red;
+}
+.price1{
+    position:absolute;
+    top: 380px;
+    margin-left: 41%;
+    color: #555555;
+}
+.price1 .s1{   
+    top: 400px;
+    margin-left: 43%;
+    color:#e65540;
+    margin: 0px;
+}
+/*section-5*/
+.five{
+    width: 100%;
+    height: 630px;
+}
+.p10{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 6%;
+    letter-spacing: 4px;
+    padding-bottom: 3%;
+}
+.img2{
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+}
+.img2 img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s
+}
+.img2:hover img{
+    transform: scale(1.1)
+}
+.p11{
+    text-decoration: none;
+     color: #202020;
+}
+.p11:hover{
+    text-decoration: initial;
+    color: #e65540;
+    transition: all 0.6s;    
+}
+.p12{
+    font-size: 13px;
+    color: #555555;
+    margin: 15px 0px;
+}
+.p12 .color{
+  color: #858585a6;
+}
+.p13{
+    font-size: 12px;
+    color: #888888;
+    line-height: 25px;
+}
+/*section-6*/
+.six{
+    width: 100%;
+    height: 695px;
+}
+.imgs5{
+    width: 100%;
+}
+.quintet{
+    width: 100%;  
+}
+.image{
+    width: 285px;
+    height: 288px;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+.p14{
+    font-family:Montserrat-Regular, sans-serif;
+    font-size: 20px;
+    color: #555555c0;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing:1px;   
+}
+.p15{
+    font-size: 13px;
+    color: #888888;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 34%; 
+}
+.p15:hover{
+    text-decoration: initial;
+    color: #e65540;
+    transition: all 0.5s;
+}
+.col4{
+    margin-top:15% ;
+    padding-top: 12px;
+    border-right: 1px solid rgba(82, 82, 82, 0.411);   
+}
+.col5{
+    margin-top:15% ;
+    padding-top: 12px;
+    border-right: 0px ;  
+}
+.overle2{
+    width: 100%;
+    height: 100%;
+    background-color: #111111bb;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 1s;  
+    opacity: 0;
+}
+.textp16 {
+    position: absolute;
+    bottom: -75px;
+    left: 30px;
+    transition: all 1s;
+    color: rgba(233, 233, 233, 0.883);
+    font-size: 14px;
+}
+.overle2:hover .textp16 {
+    bottom: 95px;  
+}
+.image img{
+    width: 100%;
+}
+.image:hover .overle2{
+    opacity: 1;
+}
+.heart2{
+    position: absolute;
+    top: -22px;
+    left: -22px;
+    transition: all 0.6s;
+    transform: scale(0);
+}
+.heart2 i{
+    color: white;
+    font-size: 20px;
+}
+.heart2 p{
+    color: white;
+    display: inline-block;
+}
+.overle2:hover .heart2{
+    transform: scale(1.1);
+    top: 30px;
+    left: 30px;
+}
+/*footer-7*/
+.seven{
+    width: 100%;
+    height: 420px;
+    background-color: #f0f0f0;
+}
+.p17{
+    position: absolute;
+    color: black;
+    font-size: 16px;
+    font-family: Montserrat-Bold, sans-serif;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+.p18{
+    position: absolute;
+    color: rgba(98, 98, 98, 0.801);
+    font-size: 13px;
+    font-family: Montserrat-Bold, sans-serif;
+    padding-left: 60px;
+    padding-top: 110px;
+    line-height: 1.7;
+    letter-spacing: 1px;
+}
+.seven .icons2 ul li {
+    padding-left:20px;
+    padding-top: 46%;
+   display: inline-block;
+}
+.seven .icons2 ul li a{
+    color: #888888
+}
+.seven .icons2 ul{
+    padding-left: 40px;
+}
+.p19{
+    position: absolute;
+    color: black;
+    font-size: 16px;
+    font-family: Montserrat-Bold, sans-serif;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+.col-4 a .p20{
+    position: absolute;
+    color: #555555;
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left: 60px;
+    padding-top: 8%;  
+    
+}
+.col-4 a .p21{
+    position: absolute;
+    color: #555555;
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left: 60px;
+    padding-top: 11%; 
+}
+.col-4 a .p22{
+    position: absolute;
+    color: #555555;
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left: 60px;
+    padding-top: 14%; 
+}
+.col-4 a .p23{
+    position: absolute;
+    color: #555555;
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left: 60px;
+    padding-top: 17%; 
+}
+.p24{
+    position: absolute;
+    color: black;
+    font-size: 16px;
+    font-family: Montserrat-Bold, sans-serif;
+    padding-left:17%;
+    padding-top: 60px;
+}
+.col-4 a .p25{
+    position: absolute;
+    color: #555555;
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left:17%;
+    padding-top: 8%;  
+    
+}
+.col-4 a .p26{
+    position: absolute;
+    color: #555555;
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left:17%;
+    padding-top: 11%; 
+}
+.col-4 a .p27{
+    position: absolute;
+    color: #555555;
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left:17%;
+    padding-top: 14%; 
+}
+.col-4 a .p28{
+    position: absolute;
+    color: #555555;
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left: 17%;
+    padding-top: 17%; 
+}
+.p29{
+    position: absolute;
+    color: black;
+    font-size: 16px;
+    font-family: Montserrat-Bold, sans-serif;
+    padding-left:29%;
+    padding-top: 60px;
+}
+.col-4 a .p30{
+    position: absolute;
+    color: #555555;
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left:29%;
+    padding-top: 8%;  
+    
+}
+.col-4 a .p31{
+    position: absolute;
+    color: #555555;
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left:29%;
+    padding-top: 11%; 
+}
+.col-4 a .p32{
+    position: absolute;
+    color: #555555;
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left:29%;
+    padding-top: 14%; 
+}
+.col-4 a .p33{
+    position: absolute;
+    color: #555555;
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left: 29%;
+    padding-top: 17%; 
+}
+.col-4 .p34{
+    position: absolute;
+    color: black;
+    font-size: 16px;
+    font-family: Montserrat-Bold, sans-serif;
+    padding-left:8%;
+    padding-top: 60px;
+}
+.email{
+    position: absolute;
+  padding-left: 8%;
+  padding-top: 8%;
+
+}
+input{
+   
+    border-bottom: 1px solid rgba(133, 133, 133, 0.589);
+    border-left: 0px;
+    border-right: 0px;
+    border-top:0px;
+    background-color: #f0f0f0;
+    font-size: 14px;
+    text-align: center;
+}
+.but8{
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    margin-left: 8%;
+    margin-top: 160px;
+    border-radius: 90px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    
+}
+.but8:hover{
+    background-color:rgba(235, 50, 50, 0.849);
+    transition: all 0.6s;
+}
+.icons3{
+    
+    margin-top: 90px;
+    margin-left: 45%;
+}
+.p35{
+    color: rgba(98, 98, 98, 0.801);
+    font-size: 13px;
+    font-family: Montserrat-Bold, sans-serif;
+    padding-left: 43%;
+    padding-top: 20px;
+}
